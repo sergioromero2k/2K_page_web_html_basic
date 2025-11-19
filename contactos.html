@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-with,initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="author" content="Sergio Romero" />
+    <meta name="description" content="Mi pagina web parte 2" />
+    <meta hhtp-equiv="content-type" content="text/html" ; charset="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="conctactos.css" />
+    <script src="https://kit.fontawesome.com/6b5d7e1dcc.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="general">
+        <!--CABECERA-->
+        <div id="flexcabecera">
+            <div>Whatsapp: +34 611 318 632</div>
+            <div id="flexconta">
+            <div id="conta1"><a href="nuestratienda.html" name="info" target="principal">Nuestras tiendas</a></div>
+            <div><a href="contactos.html" name="contacto" target="principal">Contacto</a></div>
+        </div>
+        </div>
+        <!--FIN DE CABECERA-->
+        <!--TITULO HEADER-->
+        <header id="flextitulo">
+            <div>
+                <h1><img src="imagenesheader/logo2.png"> <span id="rojo">Venta de mot</span><span id="azul">os Rayo McQueen</span></h1>
+        </div>
+        <div class="logos">
+            <a href="https://www.facebook.com" name="facebook"><img src="imagenesheader/logoface.png"></a>
+            <a href="https://twitter.com/?lang=ES" name="twwiter"><img src="imagenesheader/logot.png"></a>
+            <a href="https://www.instagram.com" name="instagram"><img src="imagenesheader/logoinsta.png"></a>
+        </div>
+        
+            </header>
+        <!--FIN DE TITULO HEADER-->
+       <!--MENU-->
+       <nav class="contenedor">
+        <ul>
+            <li><a href="mipagina.html" name="inicio" target="principal">inicio</a></li>
+            <li><a href="productos.html" name="nuevas">Productos</a>
+                <!--SUBMENU-->
+                <ul class="submenu">
+                    <li><a href="productos.html" name="benelli">Benelli</a></li>
+                    <li><a href="productos.html" name="honda">Honda</a></li>
+                    <li><a href="productos.html" name="kawasaki">Kawasaki</a></li>
+                    <li><a href="productos.html" name="keeway">Keeway</a></li>
+                </ul>
+                <!--FIN DE SUBMENU-->
+            </li>
+            <li><a href="accesorios.html" name="acess">Accesorios</a>
+                <!--SUBMENU-->
+                <ul class="submenu">
+                    <li><a href="accesorios.html" name="airbag">Airbag</a></li>
+                    <li><a href="accesorios.html" name="motorista">Motorista</a></li>
+                    <li><a href="accesorios.html" name="moto">Moto</a></li>
+                </ul>
+                <!--FIN DE SUBMENU-->
+            </li>
+            <li><a href="quienesomos.html" name="somos" target="principal">¿Quienes somos?</a></li>
+            <li><a href="nuestratienda.html" name="info" target="principal">Nuestras Tiendas</a>
+            </li>
+            <li><a href="contactos.html" name="contacto" target="principal">Contactos</a></li>
+        </ul>
+        <div class="cf"></div>
+    </nav>
+    <!--FIN DE MENU-->
+        <!--SECTION IMAGENES-->
+        <section>CONTACTO</section>
+<aside><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48601.47548917508!2d-3.7338514!3d40.4178836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4189c5892a5f8b%3A0xeea722f3a3a44569!2sCooperativa%20de%20Ense%C3%B1anza%20Jos%C3%A9%20Ram%C3%B3n%20Otero%20Soc.%20Coop.%20Mad.!5e0!3m2!1ses!2ses!4v1653810246084!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></aside>
+            
+<footer>
+            <div id="flexfooter">
+<div class="subfot" >
+    <h3>Ponte en contacto con nosotros</h3>
+        <form name="Formulario">
+        <input name="nombre" type="text"  placeholder=" Tu nombre"  size="45%" required>
+        <input name="apellido"  placeholder=" Tu email"  size="45%" required>
+        <input name="mail" type="email"  placeholder=" Asunto"  size="45%"required>
+        <input name="numero" type="number" placeholder=" Tu numero"  size="45%" required><br>
+        <label for="marca"  >Moto a consultar o accesorio a consultar :</label>
+           <select name="marca">
+                             <option >Mercedes</option>
+                                                   <option> Benelli </option>
+                                                   <option> Honda </option>
+                                                   <option> Kawasaki </option>
+                                                   <option> keeway </option>
+                                                   <option> Airbag </option>
+                                                   <option> Motorista </option>
+                                                   <option> Moto </option>
+                                                   
+                                 </select><br><br>
+        <textarea  rows="9" cols="48%" > Indica tu mensaje</textarea><br><br>
+        <div class="flexcondi">
+        <input name="condiciones" type="checkbox"  value="Acepto" required>
+        <label for="condiciones"> Acepto el envio de información</label>
+        </div>
+        <div class="flexcondi">
+        <input name="condiciones2" type="checkbox"  value="Aceptopolitica" required>
+        <label for="condiciones2"> He leido y acepto la <span>Política de Privacidad</span></span></label><br><br>
+        </div>
+        <div class="flexcondi">
+        <input name="enviar"  type="button" value="enviar" onclick="alert('Has enviado los datos correctamente.')">
+        <input name="borrar" type="reset" value="Borrar datos" onclick="alert('Has borrado los datos.')" >
+        </div><br>
+
+        <p>RESPONSABLE: Tdm motor Sergio Romero, sL</p> 
+        <p>FINALIDAD: la prestación y comercialización de nuestros productos y servicios, 
+            así como el envío de nuestros artículos del blog, el aviso de nuevas actividades,
+             algunas de las cuales podrían ser de carácter comercial. </p>
+        <p>LEGITIMACIÓN: Consentimiento del interesado en este mismo formulario. </p>
+       <p>DESTINATARIOS: No se cederán datos a terceros, salvo autorización expresa u obligación legal. </p>
+        <p>
+    DERECHOS: Acceder, rectificar y suprimir los datos, así como otros derechos, como se 
+    explica en la información adicional. Información adicional: Puede consultar la 
+    información adicional y detallada sobre Protección de Datos en nuestra <span>Política de 
+    Privacidad</span>.</p>
+</form>
+</div>
+<div class="subfot">
+<div class="subfot2">
+<h3>Puedes hacerlo de las siguientes formas</h3>
+<h4><i class="fa-solid fa-map-location-dot"></i>&nbsp  Dirección</h4>
+<p>C. de Francisco Brizuela, 3</p>
+<p>28011 - Madrid</p>
+<p>España</p>
+</div>
+<div>
+    <h4><i class="fa-solid fa-phone-flip"></i>&nbsp  Teléfono</h4>
+    <p>Llámanos al 99 666 33 21</p>
+</div>
+<div>
+    <h4><i class="fa-solid fa-mobile-screen"></i>&nbsp  Móvil</h4>
+    <p>Llámanos al 611 318 632</p>
+</div>
+<div>
+    <h4><i class="fa-solid fa-envelope"></i>&nbsp  Email</h4>
+    <p>sergioromero2k@gmail.com</p>
+</div>
+<div id="ultihorario">
+<h4><i class="fa-solid fa-clock"></i>&nbsp  Horario</h4>
+<p>Lunes a Viernes : 10:30 a 14:30 y 16:00 a 19:30</p>
+<p>Sábados: 10:30 a 13:30</p>
+</div>
+</div>
+</div>
+</footer>  
+<!--FINAL -->
+ <div id="final">
+<div>
+    <h3>Compañía</h3>
+    <p><a href="contactos.html" name="contacto" target="principal">CONTACTO</a></p>
+    <p>POLÍTICA DE PRIVACIDAD</p>
+    <p>AVISO LEGAL</p>
+    <p>POLÍTICA DE COOKIES</p>
+    <p><a href="quienesomos.html" name="somos" target="principal">QUIENES SOMOS</a></p>
+</div>
+<div>
+    <img id="pajaro" src="imagenesheader/logo2.png">
+    <p>Calle Pilar de Zaragoza, 85</p>
+    <p> 28028 - Madrid</p>
+        <p> España.</p> <br>
+    <p>mail: sergioromero2k@gmail.com</p>
+        <p> +34 61 131 86 32</p>
+            <p>Tu tienda de motos en madrid.</p>
+
+            </div>
+<div>
+    <h3>Acerca de Rayo McQueen</h3>
+    <p>En Rayo McQueen somos un equipo de personas comprometidas con el servicio al cliente. Nos gusta lo que hacemos, y estamos comprometidos con el modelo KAIZEN o “mejora constante”.</p><br><br>
+    <p> Ofrecemos a nuestros clientes motos de marcas en las que confiamos, para dar un servicio de excelencia.</p>
+
+        </div>
+<div class="logos">
+    <a href="https://www.facebook.com" name="facebook"><img src="imagenesheader/logoface.png"></a>
+    <a href="https://twitter.com/?lang=ES" name="twwiter"><img src="imagenesheader/logot.png"></a>
+    <a href="https://www.instagram.com" name="instagram"><img src="imagenesheader/logoinsta.png"></a>
+    <h3>HORARIO</h3>
+    <p>Lunes a Viernes:</p>
+    <p> 10:30 a 14:30 y 16:00 a 19:30</p>
+        <p> Sábados: 10:30 a 13:30</p>
+
+        </div>
+ </div>
+ <!--FINAL-->
+    </div>
+</body>
+
+</html>
