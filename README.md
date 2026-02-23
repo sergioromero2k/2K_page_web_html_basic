@@ -1,4 +1,4 @@
-# page_web_html_basic
+# 2K_page_web_html_basic
 
 My first website built with HTML and CSS — made in 2021 as part of a web development course. Kept as a personal milestone.
 
